@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  CarlaBoundingBox.msg
   CarlaEgoVehicleControl.msg
   CarlaEgoVehicleStatus.msg
   CarlaEgoVehicleInfoWheel.msg
@@ -21,10 +22,15 @@ add_message_files(
   CarlaActorInfo.msg
   CarlaActorList.msg
   CarlaControl.msg
+  CarlaRadarDetection.msg
+  CarlaRadarMeasurement.msg
   CarlaStatus.msg
+  CarlaTrafficLightInfo.msg
+  CarlaTrafficLightInfoList.msg
   CarlaTrafficLightStatus.msg
   CarlaTrafficLightStatusList.msg
   CarlaWalkerControl.msg
+  CarlaWeatherParameters.msg
 )
 
 generate_messages(
