@@ -1,0 +1,12 @@
+Source: ros-melodic-carla-msgs
+Section: misc
+Priority: optional
+Maintainer: CARLA Simulator Team <carla.simulator@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-ros-environment, ros-melodic-std-msgs
+Homepage: http://carla.org/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-carla-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-diagnostic-msgs, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: The carla_msgs package
