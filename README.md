@@ -1,3 +1,26 @@
+## carla_msgs (noetic) - 1.3.0-1
+
+The packages in the `carla_msgs` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic carla_msgs` on `Mon, 22 Mar 2021 14:54:00 -0000`
+
+The `carla_msgs` package was released.
+
+Version of package(s) in repository `carla_msgs`:
+
+- upstream repository: https://github.com/carla-simulator/ros-carla-msgs.git
+- release repository: https://github.com/carla-simulator/ros-carla-msgs-release.git
+- rosdistro version: `1.2.0-1`
+- old version: `1.2.0-1`
+- new version: `1.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.1`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## carla_msgs (melodic) - 1.3.0-1
 
 The packages in the `carla_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic carla_msgs` on `Mon, 22 Mar 2021 11:42:45 -0000`
